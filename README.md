@@ -5,23 +5,22 @@
 + ### 第一步，引用js和css，必须要引入jquery库 ###
 + ### 第二步，将html代码写在网页上，任意位置即可 ###
 + ***
-`	<button class="btn1" id="btn1">点我</button>
-    <div class="content">
-        <div class="dialog" id="dialog">
-            <div class="dialog-content">
-                <div class="dialog-header">
-                    <h3 class="dialog-title">标题</h3>
-                </div>
-                <div class="dialog-body">
-                    <p>主题内容....</p>
-                </div>
-                <div class="dialog-footer">
-                    <button type="button" class="close" id="close">关闭</button>
-                    <button type="button" class="save" id="save">保存</button>
-                </div>
-            </div>
-        </div>
-    </div>
+`	<div class="content">
+				<div class="dialog" id="dialog">
+					<div class="dialog-content">
+						<div class="dialog-header">
+							<h4 class="da-title">标题</h4>
+						</div>
+						<div class="dialog-body">
+							<p>主题内容...</p>
+						</div>
+						<div class="dialog-footer">
+							<button type="button" class="close">关闭</button>
+							<button type="button" class="save">保存</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		
 ***
 ### 第三步，JSAPI ###
