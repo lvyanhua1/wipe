@@ -5,8 +5,7 @@
 + ### 第一步，需在头部引入css，body外层引入js ###
 + ### 第二步，将html代码写在body中 ###
 + ***
-` 
-	<button class="btn1" id="btn1">点我</button>
+` <button class="btn1" id="btn1">点我</button>
     <div class="content">
         <div class="dialog" id="dialog">
             <div class="dialog-content">
